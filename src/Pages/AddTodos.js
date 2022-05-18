@@ -14,7 +14,7 @@ const AddTodos = () => {
     };
     //post to backend
 
-    fetch("http://localhost:5000/todos", {
+    fetch("https://serene-woodland-90386.herokuapp.com/todos", {
       method: "POST",
       headers: {
         "content-type": "application/json",
